@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <nav class="bg-white shadow-md p-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold">My Portfolio</h1>
+        <ul class="flex space-x-4">
+            <li><a href="#about" class="hover:text-blue-500">About</a></li>
+            <li><a href="#projects" class="hover:text-blue-500">Projects</a></li>
+            <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <header class="text-center py-20 bg-blue-500 text-white">
+        <h2 class="text-4xl font-bold">Hello, I'm MANVAR KEVIN</h2>
+        <p class="text-xl mt-2">Web Developer & Designer</p>
+    </header>
+    
+    <section id="about" class="max-w-4xl mx-auto p-8">
+        <h3 class="text-3xl font-bold mb-4">About Me</h3>
+        <p class="text-lg">I am a passionate web developer with expertise in HTML, CSS, JavaScript, and modern frameworks.</p>
+    </section>
+    
+    <section id="projects" class="bg-gray-200 p-8">
+        <h3 class="text-3xl font-bold mb-4 text-center">Projects</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="bg-white p-4 rounded shadow-md">
+                <h4 class="text-xl font-semibold">Project 1</h4>
+                <p>Short description of the project.</p>
+            </div>
+            <div class="bg-white p-4 rounded shadow-md">
+                <h4 class="text-xl font-semibold">Project 2</h4>
+                <p>Short description of the project.</p>
+            </div>
+            <div class="bg-white p-4 rounded shadow-md">
+                <h4 class="text-xl font-semibold">Project 3</h4>
+                <p>Short description of the project.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="max-w-4xl mx-auto p-8 text-center">
+        <h3 class="text-3xl font-bold mb-4">Contact Me</h3>
+        <p class="text-lg">Email: kevinmanvar4@gmail.com</p>
+        <p class="text-lg">LinkedIn: linkedin.com/in/Kevin Manvar</p>
+    </section>
+    
+    <footer class="text-center p-4 bg-gray-300 mt-8">
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
